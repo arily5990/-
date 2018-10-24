@@ -18,5 +18,112 @@ body {
 }
 /*01↓*/
 .content1{
-
+    position: relative;
+    height: 1072px;
+    background: url(../images/changxiang_01.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 02 */
+.content2{
+    position: relative;
+    height: 1204px;
+    background: url(../images/changxiang_02.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 03 */
+.content3{
+    position: relative;
+    height: 499px;
+    background: url(../images/changxiang_03.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 04 */
+.content4{
+    position: relative;
+    height: 1564px;
+    background: url(../images/changxiang_04.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 05 */
+.content5{
+    position: relative;
+    height: 994px;
+    background: url(../images/changxiang_05.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 06 */
+.content6{
+    position: relative;
+    height: 991px;
+    background: url(../images/changxiang_06.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 07 */
+.content7{
+    position: relative;
+    height: 1235px;
+    background: url(../images/changxiang_07.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 08 */
+.content8{
+    position: relative;
+    height: 1516px;
+    background-color: red;
+    background: url(../images/changxiang_08.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */   
+}
+/* 09 */
+.content9{
+    position: relative;
+    height: 1040px;
+    background: url(../images/changxiang_09.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 10 */
+.content10{
+    position: relative;
+    height: 945px;
+    background: url(../images/changxiang_10.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
+}
+/* 11 */
+.content11{
+    position: relative;
+    height: 2159px;
+    background: url(../images/changxiang_11.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+	/* background-size: 100% auto; */
 }
