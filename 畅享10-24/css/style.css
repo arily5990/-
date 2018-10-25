@@ -171,14 +171,14 @@ body {
 .content4 .text4 {
     padding-top: 55%;
 }
-.content4 .text4 h3 {
+.content4 .text4 h3, .content5 h3, .content6 h3, .content8 h3{
     font-size: 34px;
 }
 .content4 .text4 .font4-1{
     padding: 15px;
     font-size: 28px;
 }
-.content4 .text4 .font4-2{
+.content4 .text4 .font4-2, .content5 p, .content6 p, .content8 p{
     padding: 10px;
     line-height: 30px;
     font-size: 15px;
@@ -194,17 +194,15 @@ body {
     display: inline-block;
 }
 /* 05 */
-.centent5{
+.content5{
     position: relative;
     height: 994px;
     background: url(../images/changxiang_05.jpg);
 	background-repeat:no-repeat;
 	background-position: center center; 
 	background-attachment: scroll; 
-	/* background-size: 100% auto; */
-}
-.content5 h3 {
-
+    /* background-size: 100% auto; */
+    margin-top: 150px;
 }
 /* 06 */
 .content6{
@@ -214,7 +212,37 @@ body {
 	background-repeat:no-repeat;
 	background-position: center center; 
 	background-attachment: scroll; 
-	/* background-size: 100% auto; */
+    /* background-size: 100% auto; */
+    margin-top: 150px;
+}
+.content6 .imgs6-1 {
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    padding-left: 17%;
+}
+.content6 .imgs6-1 p:first-child, .content6 .imgs6-2 p:first-child {
+    font-size: 28px;
+}
+.content6 .imgs6-1 img {
+    position: absolute;
+    left: 11%;
+    top: -4%;
+}
+.content6 .imgs6-1 p:last-child, .content6 .imgs6-2 p:last-child {
+    font-size: 23px;
+    padding-top: 430px;
+}
+
+.content6 .imgs6-2 {
+    position: absolute;
+    right: 25%;
+    top: 30%;
+}
+.content6 .imgs6-2 img {
+    position: absolute;
+    right: -50%;
+    top: 9%;
 }
 /* 07 */
 .content7{
@@ -224,7 +252,39 @@ body {
 	background-repeat:no-repeat;
 	background-position: center center; 
 	background-attachment: scroll; 
-	/* background-size: 100% auto; */
+    /* background-size: 100% auto; */
+    text-align: left;
+}
+.content7 h3{
+    font-size: 40px;
+    padding-top: 10%;
+    padding-left: 8%;
+}
+.content7 p {
+    color: #7d7b7b;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 8%;
+}
+.content7 ul {
+    width: 530px;
+    position: absolute;
+    left: 120px;
+    top: 60%;
+}
+.content7 ul li {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 160px;
+    font-size: 20px;
+    color: #7d7b7b;
+}
+.content7 img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 /* 08 */
 .content8{
@@ -235,7 +295,13 @@ body {
 	background-repeat:no-repeat;
 	background-position: center center; 
 	background-attachment: scroll; 
-	/* background-size: 100% auto; */   
+    /* background-size: 100% auto; */   
+    margin-top: 150px;
+}
+.content8 img {
+    position: absolute;
+    bottom: 7%;
+    left: 26%;
 }
 /* 09 */
 .content9{
@@ -245,7 +311,18 @@ body {
 	background-repeat:no-repeat;
 	background-position: center center; 
 	background-attachment: scroll; 
-	/* background-size: 100% auto; */
+    /* background-size: 100% auto; */
+    text-align: left;
+    padding-left: 10%;
+}
+.content9 h3 {
+    padding-top: 10%;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.content9 p {
+    font-size: 20px;
+    line-height: 40px;
 }
 /* 10 */
 .content10{
@@ -255,7 +332,20 @@ body {
 	background-repeat:no-repeat;
 	background-position: center center; 
 	background-attachment: scroll; 
-	/* background-size: 100% auto; */
+    /* background-size: 100% auto; */
+    padding-left: 17%;
+    text-align: left;
+    color: #fff;
+}
+.content10 h3 {
+    padding-top: 10%;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.content10 img {
+    position: absolute;
+    left: 40%;
+    bottom: 7%;
 }
 /* 11 */
 .content11{
@@ -266,4 +356,40 @@ body {
 	background-position: center center; 
 	background-attachment: scroll; 
 	/* background-size: 100% auto; */
+}
+.content11 span {
+    display: inline-block;
+    width: 890px;
+    padding-top: 76px;
+    font-size: 30px;
+    color: #fff;
+}
+.content11 .imgs11-1 {
+    position: absolute;
+    left: 7%;
+    top: 63%;
+    padding-left: 17%;
+}
+.content11 .imgs11-1 p:first-child, .content11 .imgs11-2 p:first-child {
+    font-size: 28px;
+}
+.content11 .imgs11-1 img {
+    position: absolute;
+    left: 8%;
+    top: -4%;
+}
+.content11 .imgs11-1 p:last-child, .content11 .imgs11-2 p:last-child {
+    font-size: 23px;
+    padding-top: 460px;
+}
+
+.content11 .imgs11-2 {
+    position: absolute;
+    left: 20%;
+    top: 37%;
+}
+.content11 .imgs11-2 img {
+    position: absolute;
+    left: -38%;
+    top: 9%;
 }
