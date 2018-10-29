@@ -2,12 +2,12 @@
 body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd { 
 margin: 0px; 
 padding: 0px; 
+font-weight: normal;
 }
 ul { list-style: none; }
 img { border-style: none; }
 body {
     width: 100%;
-
 }
 
 /*内容全局样式↓*/
@@ -28,17 +28,24 @@ body {
 	/* background-size: 100% auto; */
 }
 .content1 h2{
-    padding-top: 50px;
-    font-size: 46px;
+    font-family: 'font5';
+    padding-top: 120px;
+    font-size: 64.32px;
+    letter-spacing: 10px;
 }
 .content1 h3{
+    font-family: 'font3';
     color: #828282;
-    font-size: 26px;        
+    font-size: 39.38px;      
+    letter-spacing: 5px;
+    padding-top: 5px;
 }
 .content1 p{
+    font-family: 'font4';
     color: #828282;
-    font-size: 20px;
-    letter-spacing: 14px;
+    font-size: 25.94px;
+    letter-spacing: 10px;
+    padding-top: 15px;
 }
 .content1 img{
     position: absolute;
@@ -61,12 +68,16 @@ body {
     padding-right: 10%;
 }
 .content2 .text2 h3 {
-    line-height: 35px;
-    font-size: 23px;
+    font-family: 'font5';
+    line-height: 45px;
+    font-size: 33.32px;
 }
 .content2 .text2 p {
+    font-family: 'font3';
     padding-top: 1%;
-    color: #7d7b7b;
+    color: #9b9b9b;
+    font-size: 19.44px;
+    letter-spacing: 2px;
 }
 .content2 img{
     position: absolute;
@@ -87,7 +98,7 @@ body {
     height: 388px;
 }
 .content3 ul li {
-    padding-top: 220px;
+    padding-top: 225px;
     width: 400px;
 }
 .content3 ul li:first-child {
@@ -103,19 +114,26 @@ body {
     right: 16%;
 }
 .content3 ul li h4{
-    color: #007c36;
-    font-size: 22px;
+    font-family: 'font4';
+    color: #037946;
+    font-size: 30px;
     font-weight: normal;
+    letter-spacing: 5px;
 }
 .content3 ul li p{
+    font-family: 'font4';
     color: #fff;
-    font-size: 15px;
+    font-size: 16.6px;
+    line-height: 26px;
+    letter-spacing: 3px;
 }
 .content3 .text3 {
+    font-family: 'font5';
     height: 111px;
-    font-size: 36px;
-    line-height: 111px;
+    font-size: 30px;
+    line-height: 120px;
     color: #fff;
+    letter-spacing: 3px;
 }
 /* 04 */
 .content4{
@@ -128,24 +146,29 @@ body {
 	/* background-size: 100% auto; */
 }
 .content4 h4{
-    padding-top: 50px;
+    font-family: 'font5';
+    padding-top: 70px;
     margin-bottom: 12px;
     color: #fff;
-    font-size: 32px;
+    font-size: 38.38px;
+    letter-spacing: 4px;
 }
-.content4 >p{    
-    color: #ccc;
+.content4 .text4-0{    
+    font-family: 'font5';
+    color: #bbbaba;  
+    font-size: 16.86px;  
+    letter-spacing: 1px;
 }
 .content4 ul li h5{
-    color: #007c36;
-    font-size: 16px;
-    font-weight: normal;
+    color: #037946;
+    font-size: 13.47px;
 }
 .content4 ul li {
     padding-top: 175px;
     width: 225px;
-    font-size: 14px;
+    font-size: 13.47px;
     color: #ccc;
+    line-height: 22px;
 }
 .content4 ul li:first-child {
     position: absolute;
@@ -172,22 +195,26 @@ body {
     padding-top: 55%;
 }
 .content4 .text4 h3, .content5 h3, .content6 h3, .content8 h3{
-    font-size: 34px;
+    font-family: 'font5';
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 .content4 .text4 .font4-1{
+    font-family: 'font3';
     padding: 15px;
-    font-size: 28px;
+    font-size: 29.55px;
+    letter-spacing: 3px;
 }
-.content4 .text4 .font4-2, .content5 p, .content6 p, .content8 p{
-    padding: 10px;
-    line-height: 30px;
+.content4 .text4 .font4-2,.content6 p, .content8 p{
+    font-family: 'font4';
+    line-height: 28px;
     font-size: 15px;
+    letter-spacing: 2px;
 }
 .content4 .text4 .font4-3{
     color: #007c36;
-    font-size: 16px;
-    font-weight: normal;
-    padding-top: 110px;
+    font-size: 13.47px;
+    padding-top: 125px;
 }
 .content4 .text4 .font4-3 span {
     width: 200px;
@@ -202,7 +229,15 @@ body {
 	background-position: center center; 
 	background-attachment: scroll; 
     /* background-size: 100% auto; */
-    margin-top: 150px;
+}
+.content5 h3 {
+    padding: 67px 0 20px 0;
+}
+.content5 p {
+    font-family: 'font4';
+    line-height: 32px;
+    font-size: 16px;
+    letter-spacing: 4px;
 }
 /* 06 */
 .content6{
@@ -213,7 +248,9 @@ body {
 	background-position: center center; 
 	background-attachment: scroll; 
     /* background-size: 100% auto; */
-    margin-top: 150px;
+}
+.content6 h3 {
+    padding: 130px 0 20px 0;
 }
 .content6 .imgs6-1 {
     position: absolute;
@@ -222,7 +259,8 @@ body {
     padding-left: 17%;
 }
 .content6 .imgs6-1 p:first-child, .content6 .imgs6-2 p:first-child {
-    font-size: 28px;
+    font-size: 35.5px;
+    font-family: 'font3';
 }
 .content6 .imgs6-1 img {
     position: absolute;
@@ -230,8 +268,9 @@ body {
     top: -4%;
 }
 .content6 .imgs6-1 p:last-child, .content6 .imgs6-2 p:last-child {
-    font-size: 23px;
-    padding-top: 430px;
+    font-family: 'font4';
+    font-size: 25px;
+    padding-top: 460px;
 }
 
 .content6 .imgs6-2 {
@@ -256,29 +295,33 @@ body {
     text-align: left;
 }
 .content7 h3{
-    font-size: 40px;
-    padding-top: 10%;
-    padding-left: 8%;
+    font-family: 'font5';
+    font-size: 43.66px;
+    padding-top: 145px;
+    padding-left: 165px;
 }
 .content7 p {
-    color: #7d7b7b;
-    font-size: 20px;
-    padding-top: 30px;
-    padding-left: 8%;
+    font-family: 'font3';
+    color: #7d7d7d;
+    font-size: 20.44px;
+    padding-top: 35px;
+    padding-left: 165px;
+    position: absolute;
+    z-index: 1;
 }
 .content7 ul {
-    width: 530px;
+    width: 536px;
     position: absolute;
     left: 120px;
     top: 60%;
 }
 .content7 ul li {
-    width: 150px;
+    font-family: 'font3';
+    width: 162px;
     display: inline-block;
     text-align: center;
-    margin-right: 15px;
     margin-bottom: 160px;
-    font-size: 20px;
+    font-size: 22px;
     color: #7d7b7b;
 }
 .content7 img {
@@ -296,7 +339,9 @@ body {
 	background-position: center center; 
 	background-attachment: scroll; 
     /* background-size: 100% auto; */   
-    margin-top: 150px;
+}
+.content8 h3 {
+    padding: 80px 0 20px 0;
 }
 .content8 img {
     position: absolute;
@@ -316,13 +361,17 @@ body {
     padding-left: 10%;
 }
 .content9 h3 {
-    padding-top: 10%;
-    font-size: 48px;
-    padding-bottom: 20px;
+    font-family: 'font5';
+    padding: 180px 0 20px 0;
+    font-size: 45.44px;
+    letter-spacing: 4px;
+    line-height: 50px;
 }
 .content9 p {
+    font-family: 'font3';
     font-size: 20px;
     line-height: 40px;
+    padding-left: 10px;
 }
 /* 10 */
 .content10{
@@ -338,9 +387,17 @@ body {
     color: #fff;
 }
 .content10 h3 {
-    padding-top: 10%;
+    font-family: 'font5';
+    padding-top: 110px;
     font-size: 48px;
+    line-height: 60px;
     padding-bottom: 20px;
+}
+.content10 p {
+    font-family: 'font4';
+    font-size: 18.71px;
+    line-height: 33px;
+    letter-spacing: 5px;
 }
 .content10 img {
     position: absolute;
@@ -358,10 +415,11 @@ body {
 	/* background-size: 100% auto; */
 }
 .content11 span {
+    font-family: 'font3';
     display: inline-block;
-    width: 890px;
-    padding-top: 76px;
-    font-size: 30px;
+    width: 780px;
+    padding-top: 70px;
+    font-size: 34.84px;
     color: #fff;
 }
 .content11 .imgs11-1 {
@@ -371,7 +429,8 @@ body {
     padding-left: 17%;
 }
 .content11 .imgs11-1 p:first-child, .content11 .imgs11-2 p:first-child {
-    font-size: 28px;
+    font-family: 'font3';
+    font-size: 35.5px;
 }
 .content11 .imgs11-1 img {
     position: absolute;
@@ -379,8 +438,9 @@ body {
     top: -4%;
 }
 .content11 .imgs11-1 p:last-child, .content11 .imgs11-2 p:last-child {
-    font-size: 23px;
-    padding-top: 460px;
+    font-family: 'font4';
+    font-size: 25px;
+    padding-top: 440px;
 }
 
 .content11 .imgs11-2 {
