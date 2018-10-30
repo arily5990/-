@@ -18,5 +18,82 @@ body {
 }
 /*01↓*/
 .content1{
-
+    position: relative;
+    height: 1084px;
+    background: url(../images/tianji_01.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*02↓*/
+.content2{
+    position: relative;
+    height: 639px;
+    background: url(../images/tianji_02.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*03↓*/
+.content3{
+    position: relative;
+    height: 900px;
+    background: url(../images/tianji_03.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*04↓*/
+.content4{
+    position: relative;
+    height: 2287px;
+    background: url(../images/tianji_04.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*05↓*/
+.content5{
+    position: relative;
+    height: 1081px;
+    background: url(../images/tianji_05.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*06↓*/
+.content6{
+    position: relative;
+    height: 5631px;
+    background: url(../images/tianji_06.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*07↓*/
+.content7{
+    position: relative;
+    height: 944px;
+    background: url(../images/tianji_07.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*08↓*/
+.content8{
+    position: relative;
+    height: 1930px;
+    background: url(../images/tianji_08.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
+}
+/*09↓*/
+.content9{
+    position: relative;
+    height: 1055px;
+    background: url(../images/tianji_09.png);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-attachment: scroll; 
 }
