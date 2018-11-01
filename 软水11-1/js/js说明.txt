@@ -1,0 +1,9 @@
+
+
+wow.min.js、wow.js（动画插件）
+注意：动画插件底部要插入
+<script>
+if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+	new WOW().init();
+};
+</script>
