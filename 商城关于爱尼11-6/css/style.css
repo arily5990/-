@@ -7,7 +7,8 @@ ul { list-style: none; }
 img { border-style: none; }
 body {
     width: 100%;
-
+    text-align: center;
+    font-family: 'font4';
 }
 
 /*内容全局样式↓*/
@@ -25,7 +26,23 @@ body {
     background-position: center center;
     background-attachment: scroll;
 }
-
+.content1 h4 {
+    padding: 55px 0 15px 0;
+    color: #029354;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.content1 p:nth-child(2) {
+    font-size: 20px;
+}
+.content1 p:nth-child(3) {
+    position: absolute;
+    font-size: 20px;
+    bottom: 12px;
+    color: #FFF;
+    left: 338px;
+    line-height: 40px;
+}
 /*02↓*/
 .content2 {
     position: relative;
@@ -35,7 +52,12 @@ body {
     background-position: center center;
     background-attachment: scroll;
 }
-
+.content2 p {
+    padding-top: 20px;
+    color: #029354;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
 /*03↓*/
 .content3 {
     position: relative;
@@ -45,7 +67,29 @@ body {
     background-position: center center;
     background-attachment: scroll;
 }
-
+.content3 h4 {
+    font-size: 50.86px;
+    text-indent: 2em;
+    padding-top: 20px;
+    font-weight: normal;
+}
+.content3 p:nth-child(2) {
+    position: absolute;
+    font-size: 43.61px;
+    color: #fff;
+    line-height: 60px;
+    left: 200px;
+    top: 310px;
+}
+.content3 p:nth-child(3) {
+    position: absolute;
+    font-size: 40.64px;
+    color: #fff;
+    line-height: 50px;
+    right: 230px;
+    bottom: 145px;
+    text-align: left;
+}
 /*04↓*/
 .content4 {
     position: relative;
@@ -54,8 +98,27 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
+    text-align: left;
+    padding-left: 360px;
 }
-
+.content4 h4 {
+    padding: 20px 0 5px 0;
+    color: #029354;
+    font-size: 65.06px;
+    letter-spacing: 5px;
+}
+.content4 p:nth-child(2) {
+    font-size: 34.56px;
+    padding-bottom: 30px;
+}
+.content4 p:nth-child(3) {
+    color: #b3b3b3;
+    font-size: 24.8px;
+}
+.content4 p:last-child {
+    color: #b3b3b3;
+    font-size: 18.71px;
+}
 /*05↓*/
 .content5 {
     position: relative;
@@ -64,4 +127,45 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
+    font-family: 'font3';
+}
+.content5>span {
+    font-size: 23.36px;
+    padding-top: 40px;
+    display: block;
+}
+.content5 h4 {
+    font-size: 33.87px;
+}
+.content5 h4>span {
+    color: #029354;
+}
+.content5 div {
+    position: absolute;
+    width: 395px;
+    height: 400px;
+}
+.content5 div>span {    
+    font-size: 14.26px;
+    letter-spacing: 15px;
+}
+.content5 div>h5 {
+    font-size: 24.26px;
+    padding: 10px 0 50px 0;
+}
+.content5 div>p {
+    font-size: 14.14px;
+    line-height: 30px;
+}
+.content5 div:nth-child(3){
+    right: 460px;
+    top: 290px;
+}
+.content5 div:nth-child(4) {
+    left: 235px;
+    top: 784px;
+}
+.content5 div:nth-child(5) {
+    right: 460px;
+    bottom: -35px;
 }
